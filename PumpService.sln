@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PumpService.Web", "src\PumpService.Web\PumpService.Web.csproj", "{B4879CDD-7216-4005-A683-AF888CB0EEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1405760B-CADA-451E-BF26-C513D15FDD36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C9CEFBDC-82EC-46D9-B5C8-6465632C2E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpService.Web.Core", "src\PumpService.Web.Core\PumpService.Web.Core.csproj", "{248BE7BE-54BF-44CA-AA42-7309CF28D95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpService.Services", "src\PumpService.Services\PumpService.Services.csproj", "{683049F5-5C73-4167-A46D-E97879E82C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpService.Data", "src\PumpService.Data\PumpService.Data.csproj", "{5FDDEE13-AA11-4517-937F-838B998C3597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpService.Core", "src\PumpService.Core\PumpService.Core.csproj", "{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4879CDD-7216-4005-A683-AF888CB0EEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4879CDD-7216-4005-A683-AF888CB0EEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4879CDD-7216-4005-A683-AF888CB0EEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4879CDD-7216-4005-A683-AF888CB0EEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248BE7BE-54BF-44CA-AA42-7309CF28D95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248BE7BE-54BF-44CA-AA42-7309CF28D95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248BE7BE-54BF-44CA-AA42-7309CF28D95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248BE7BE-54BF-44CA-AA42-7309CF28D95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683049F5-5C73-4167-A46D-E97879E82C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683049F5-5C73-4167-A46D-E97879E82C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683049F5-5C73-4167-A46D-E97879E82C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683049F5-5C73-4167-A46D-E97879E82C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDDEE13-AA11-4517-937F-838B998C3597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDDEE13-AA11-4517-937F-838B998C3597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDDEE13-AA11-4517-937F-838B998C3597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDDEE13-AA11-4517-937F-838B998C3597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4879CDD-7216-4005-A683-AF888CB0EEF6} = {1405760B-CADA-451E-BF26-C513D15FDD36}
+		{248BE7BE-54BF-44CA-AA42-7309CF28D95E} = {1405760B-CADA-451E-BF26-C513D15FDD36}
+		{683049F5-5C73-4167-A46D-E97879E82C7B} = {1405760B-CADA-451E-BF26-C513D15FDD36}
+		{5FDDEE13-AA11-4517-937F-838B998C3597} = {1405760B-CADA-451E-BF26-C513D15FDD36}
+		{0A47070C-6E68-4D6D-BBA7-7FDF176EEBE8} = {1405760B-CADA-451E-BF26-C513D15FDD36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C513D52A-3D68-4A1C-B4E2-ADEE95607F99}
+	EndGlobalSection
+EndGlobal
